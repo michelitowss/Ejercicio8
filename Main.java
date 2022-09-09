@@ -9,9 +9,9 @@ public class Main {
         persona.setNombre("Michel Montero");
         persona.setTelefono(981432456);
 
-        System.out.println(persona.getEdad());
-        System.out.println(persona.getNombre());
-        System.out.println(persona.getTelefono());
+        System.out.println("Mi edad es :" + persona.getEdad());
+        System.out.println("Mi nombre es :" + persona.getNombre());
+        System.out.println("Mi telefono es :" + persona.getTelefono());
     }
 }
 class Persona { //Se declara una nueva clase persona
